@@ -1,0 +1,13 @@
+import React from 'react'
+import './App.css'
+import { Link } from 'react-router-dom'
+
+
+export function OpenSearchButton(props){
+	return(
+      	<div className="open-search">      
+      		<Link to="/search" >Add a book</Link>
+		</div>
+	)
+}
+
